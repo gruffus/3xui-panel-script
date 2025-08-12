@@ -16,3 +16,7 @@
 ### 1. Клонирование репозитория
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/3xui-panel-script && git clone https://github.com/gruffus/3xui-panel-script.git && cd 3xui-panel-script && chmod +x self_signed_cert.sh && sudo ./self_signed_cert.sh
+```
+### 2. Сертификаты
+SSL CERTIFICATE PATH: /etc/ssl/self_signed_cert/self_signed.crt
+SSL KEY PATH: /etc/ssl/self_signed_cert/self_signed.key
